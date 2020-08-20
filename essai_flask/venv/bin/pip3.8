@@ -1,0 +1,8 @@
+#!/mnt/675cf3a5-d4bf-4c23-ba26-d8283b3d361a/flask/essai_flask/venv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
