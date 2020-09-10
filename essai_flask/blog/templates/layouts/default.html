@@ -6,8 +6,11 @@
 </head>
 
 <body>
-    {% include 'shared/_nav.html' %}
+    {% include 'layouts/shared/_nav.html' %}
 
     {% block body %}{% endblock %}
+
+    {% include 'layouts/shared/_footer.html' %}
+
 </body>
 </html>
